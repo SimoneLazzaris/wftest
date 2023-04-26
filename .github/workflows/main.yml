@@ -14,11 +14,11 @@ jobs:
     run: |
       printenv
       /usr/bin/true
-  - name: step_two:
+  - name: step_two
     run: |
       echo "This is step 2"
       /usr/bin/false
-  - name: step_three:
+  - name: step_three
     run: |
       echo "There is no step 3"
   
