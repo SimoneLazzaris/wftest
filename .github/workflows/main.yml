@@ -8,7 +8,7 @@ on:
       - "*"
 jobs:
   ruminate:
-  runs-on: ubuntu-22
+  runs-on: ubuntu-latest
   steps:
   - name: step_one
     run: |
