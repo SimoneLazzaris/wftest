@@ -8,17 +8,18 @@ on:
       - "*"
 jobs:
   ruminate:
-  runs-on: ubuntu-latest
-  steps:
-  - name: step_one
-    run: |
-      printenv
-      /usr/bin/true
-  - name: step_two
-    run: |
-      echo "This is step 2"
-      /usr/bin/false
-  - name: step_three
-    run: |
-      echo "There is no step 3"
+    name: ruminate
+    runs-on: ubuntu-latest
+    steps:
+    - name: step_one
+      run: |
+        printenv
+        /usr/bin/true
+    - name: step_two
+      run: |
+        echo "This is step 2"
+        /usr/bin/false
+    - name: step_three
+      run: |
+        echo "There is no step 3"
   
